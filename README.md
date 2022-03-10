@@ -1,45 +1,59 @@
-<<<<<<< HEAD
-flex
-====
+# glas
+Glas - Rails on Ruby - Jekyll Theme 
+Preview: http://www.spaceg.github.io
 
-Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
+![Alt text](https://raw.githubusercontent.com/SpaceG/glas/master/img/glas_github.png "glas")
 
-The theme is based on the website [The Development](http://thedevelopment.co).
 
-View a demo website [here](http://the-development.github.io/flex/).
+GLAS  - DOM Structure
+### Structure ###
+<pre>
+.  
+|-- .sass-cache  
+|-- _data  
+|   |-- organisers.yml
+|-- _includes 
+|   |-- footer.html  
+|   |-- head.html 
+|   `-- header.html   
+|-- _layouts  
+|   |-- about.html  
+|   |-- archive.html 
+|   |-- default.html 
+|   |-- page.html  
+|   `-- post.html  
+|-- _posts  
+|   |-- 2016-01-18-gem-npm-ruby-gems-node.js.md 
+|   `-- 2016-01-18-create-commandlines-for-your-app.md
+|-- _sass
+|-- _assets  
+|   |-- css  
+|   |-- fonts
+|   |-- img
+|   |-- js 
+|   `-- post.html  
+|-- _config.yml 
+|-- _feed.yml       
+`-- index.html  
+</pre>
 
-Installation
-===
-To use this theme, you would do so like any other Jekyll setup:
 
-1. Install Jekyll: `gem install jekyll`
-2. Fork this repository to your machine
-3. `cd` to the forked directory and run `jekyll serve --watch`
-4. Celebrate and dance.
 
-Contributions
-===
+Clone to Desktop
+<code>git clone https://github.com/SpaceG/glas.git  </code>
+Delete the cname file. 
 
-In general, there are no strict rules for contributing, only that your code is clean and well structured.
+by The Way Fork and Star this Theme. Thanks a lot for your Support. 
+if you have any question, take a issue. 
 
-For bugs:
-- To merge a fix, you can simply open a pull request.
-- To report one that is not yet fixed, open an issue.
 
-Feature requests:
-- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features. This way, I can determine if an idea is something that makes sense for the theme's design.
+<code>cd Desktop </code><br>
+<code>cd glas </code><br>
+<code>$ jekyll serve </code>
 
-If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
-
-License
-===
-
-Flex is licensed under the MIT license:
-
+watch your localhost <code><strong>127.0.0.1:8000 </strong> </code> 
 
 The MIT License (MIT)
-
-Copyright (c) 2013-2014 Jeff Martin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -58,42 +72,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-=======
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/erin4833/erin4833.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/erin4833/erin4833.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
->>>>>>> 4bb9f8eaeed9d850ab219828d82c6630431262e2
